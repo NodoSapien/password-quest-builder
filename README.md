@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🔐 Generador de Contraseñas Interactivo
 
-**URL**: https://lovable.dev/projects/129ff6cf-225c-4d9f-b76b-35056ad7ed83
+Un generador de contraseñas gamificado que convierte la creación de contraseñas seguras en una experiencia divertida y educativa. Los usuarios avanzan por niveles de seguridad, ganan XP y desbloquean logros mientras aprenden sobre ciberseguridad.
 
-## How can I edit this code?
+## ✨ Características
 
-There are several ways of editing your application.
+- **4 Niveles de Seguridad Progresivos**: Desde principiante hasta maestro
+- **Sistema de Gamificación**: XP, logros y medallas
+- **Visualización de Fuerza**: Barras de progreso dinámicas con animaciones
+- **Educación Interactiva**: Tips de seguridad y buenas prácticas
+- **Interfaz Responsive**: Optimizada para dispositivos móviles y escritorio
+- **Temas Visuales**: Diseño cyberpunk con gradientes y efectos
 
-**Use Lovable**
+## 🚀 Demo en Vivo
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/129ff6cf-225c-4d9f-b76b-35056ad7ed83) and start prompting.
+Visita la aplicación: [https://lovable.dev/projects/129ff6cf-225c-4d9f-b76b-35056ad7ed83](https://lovable.dev/projects/129ff6cf-225c-4d9f-b76b-35056ad7ed83)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎮 Niveles de Seguridad
 
-**Use your preferred IDE**
+| Nivel | Nombre | Requisitos | Recompensa |
+|-------|--------|------------|------------|
+| 1 | Principiante | 8 caracteres, solo letras | +10 XP |
+| 2 | Guerrero | 10 caracteres, letras y números | +25 XP |
+| 3 | Guardián | 12 caracteres, letras, números y símbolos | +50 XP |
+| 4 | Maestro | 16+ caracteres, combinación completa | +100 XP |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tecnologías
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React 18** con TypeScript
+- **Vite** para desarrollo rápido
+- **Tailwind CSS** para estilos
+- **Shadcn/ui** para componentes
+- **Lucide React** para iconos
+- **React Router** para navegación
 
-Follow these steps:
+## 📖 Documentación
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- [Guía de Contribución con Lovable](./docs/CONTRIBUTING.md)
+- [Arquitectura del Proyecto](./docs/ARCHITECTURE.md)
+- [Guía de Desarrollo](./docs/DEVELOPMENT.md)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🤝 Contribuir
 
-# Step 3: Install the necessary dependencies.
-npm i
+Este proyecto está desarrollado con [Lovable](https://lovable.dev), un editor AI para aplicaciones web. Consulta nuestra [guía de contribución](./docs/CONTRIBUTING.md) para aprender cómo colaborar usando Lovable.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Desarrollo Rápido
 
-**Edit a file directly in GitHub**
+1. **Usando Lovable (Recomendado)**:
+   - Visita el [proyecto en Lovable](https://lovable.dev/projects/129ff6cf-225c-4d9f-b76b-35056ad7ed83)
+   - Haz cambios mediante prompts en lenguaje natural
+   - Ve los cambios en tiempo real
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. **Desarrollo Local**:
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd <YOUR_PROJECT_NAME>
+   npm i
+   npm run dev
+   ```
 
-**Use GitHub Codespaces**
+## 🔒 Seguridad
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Este proyecto ha sido revisado por seguridad y cumple con las mejores prácticas:
+- ✅ Generación segura de contraseñas
+- ✅ Sin almacenamiento de datos sensibles
+- ✅ Procesamiento del lado del cliente
+- ✅ Sin dependencias vulnerables
 
-## What technologies are used for this project?
+## 📄 Licencia
 
-This project is built with:
+MIT License - ve el archivo [LICENSE](./LICENSE) para más detalles.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎯 Roadmap
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/129ff6cf-225c-4d9f-b76b-35056ad7ed83) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- [ ] Sistema de cuentas de usuario
+- [ ] Ranking global de usuarios
+- [ ] Más temas visuales
+- [ ] Exportación de contraseñas
+- [ ] PWA (Progressive Web App)
+- [ ] Multidioma
